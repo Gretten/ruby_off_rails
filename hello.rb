@@ -22,7 +22,7 @@ class Greeter
     elsif @names.respond_to?("join")
       puts "Goodbye #{@names.join(", ")}. Come back soon!"
     else
-      puts "Goodbye #{@names}. Come back soon!"
+      puts "Goodbye #{@names}. Come back soon please!"
     end
   end
   end
